@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6743615A1826986D00D65E72 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674361591826986D00D65E72 /* Cocoa.framework */; };
+		674361641826986D00D65E72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 674361621826986D00D65E72 /* InfoPlist.strings */; };
+		674361661826986D00D65E72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 674361651826986D00D65E72 /* main.m */; };
+		6743616A1826986D00D65E72 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 674361681826986D00D65E72 /* Credits.rtf */; };
+		6743616D1826986D00D65E72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743616C1826986D00D65E72 /* AppDelegate.m */; };
+		674361701826986D00D65E72 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6743616E1826986D00D65E72 /* MainMenu.xib */; };
+		674361781826986D00D65E72 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674361771826986D00D65E72 /* SenTestingKit.framework */; };
+		674361791826986D00D65E72 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674361591826986D00D65E72 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6743617A1826986D00D65E72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6743614E1826986D00D65E72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 674361551826986D00D65E72;
+			remoteInfo = AntiClimaxText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		674361561826986D00D65E72 /* AntiClimaxText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntiClimaxText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		674361591826986D00D65E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6743615C1826986D00D65E72 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6743615D1826986D00D65E72 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6743615E1826986D00D65E72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		674361611826986D00D65E72 /* AntiClimaxText-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AntiClimaxText-Info.plist"; sourceTree = "<group>"; };
+		674361631826986D00D65E72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		674361651826986D00D65E72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		674361671826986D00D65E72 /* AntiClimaxText-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AntiClimaxText-Prefix.pch"; sourceTree = "<group>"; };
+		674361691826986D00D65E72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6743616B1826986D00D65E72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6743616C1826986D00D65E72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6743616F1826986D00D65E72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		674361761826986D00D65E72 /* AntiClimaxTextTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntiClimaxTextTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		674361771826986D00D65E72 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		674361531826986D00D65E72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6743615A1826986D00D65E72 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674361721826986D00D65E72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674361781826986D00D65E72 /* SenTestingKit.framework in Frameworks */,
+				674361791826986D00D65E72 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6743614D1826986D00D65E72 = {
+			isa = PBXGroup;
+			children = (
+				6743615F1826986D00D65E72 /* AntiClimaxText */,
+				674361581826986D00D65E72 /* Frameworks */,
+				674361571826986D00D65E72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		674361571826986D00D65E72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				674361561826986D00D65E72 /* AntiClimaxText.app */,
+				674361761826986D00D65E72 /* AntiClimaxTextTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		674361581826986D00D65E72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				674361591826986D00D65E72 /* Cocoa.framework */,
+				674361771826986D00D65E72 /* SenTestingKit.framework */,
+				6743615B1826986D00D65E72 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6743615B1826986D00D65E72 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6743615C1826986D00D65E72 /* AppKit.framework */,
+				6743615D1826986D00D65E72 /* CoreData.framework */,
+				6743615E1826986D00D65E72 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6743615F1826986D00D65E72 /* AntiClimaxText */ = {
+			isa = PBXGroup;
+			children = (
+				6743616B1826986D00D65E72 /* AppDelegate.h */,
+				6743616C1826986D00D65E72 /* AppDelegate.m */,
+				6743616E1826986D00D65E72 /* MainMenu.xib */,
+				674361601826986D00D65E72 /* Supporting Files */,
+			);
+			path = AntiClimaxText;
+			sourceTree = "<group>";
+		};
+		674361601826986D00D65E72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				674361611826986D00D65E72 /* AntiClimaxText-Info.plist */,
+				674361621826986D00D65E72 /* InfoPlist.strings */,
+				674361651826986D00D65E72 /* main.m */,
+				674361671826986D00D65E72 /* AntiClimaxText-Prefix.pch */,
+				674361681826986D00D65E72 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		674361551826986D00D65E72 /* AntiClimaxText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 674361871826986D00D65E72 /* Build configuration list for PBXNativeTarget "AntiClimaxText" */;
+			buildPhases = (
+				674361521826986D00D65E72 /* Sources */,
+				674361531826986D00D65E72 /* Frameworks */,
+				674361541826986D00D65E72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AntiClimaxText;
+			productName = AntiClimaxText;
+			productReference = 674361561826986D00D65E72 /* AntiClimaxText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		674361751826986D00D65E72 /* AntiClimaxTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6743618A1826986D00D65E72 /* Build configuration list for PBXNativeTarget "AntiClimaxTextTests" */;
+			buildPhases = (
+				674361711826986D00D65E72 /* Sources */,
+				674361721826986D00D65E72 /* Frameworks */,
+				674361731826986D00D65E72 /* Resources */,
+				674361741826986D00D65E72 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6743617B1826986D00D65E72 /* PBXTargetDependency */,
+			);
+			name = AntiClimaxTextTests;
+			productName = AntiClimaxTextTests;
+			productReference = 674361761826986D00D65E72 /* AntiClimaxTextTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6743614E1826986D00D65E72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = songhojun;
+			};
+			buildConfigurationList = 674361511826986D00D65E72 /* Build configuration list for PBXProject "AntiClimaxText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6743614D1826986D00D65E72;
+			productRefGroup = 674361571826986D00D65E72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				674361551826986D00D65E72 /* AntiClimaxText */,
+				674361751826986D00D65E72 /* AntiClimaxTextTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		674361541826986D00D65E72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674361641826986D00D65E72 /* InfoPlist.strings in Resources */,
+				6743616A1826986D00D65E72 /* Credits.rtf in Resources */,
+				674361701826986D00D65E72 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674361731826986D00D65E72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		674361741826986D00D65E72 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		674361521826986D00D65E72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674361661826986D00D65E72 /* main.m in Sources */,
+				6743616D1826986D00D65E72 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674361711826986D00D65E72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6743617B1826986D00D65E72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 674361551826986D00D65E72 /* AntiClimaxText */;
+			targetProxy = 6743617A1826986D00D65E72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		674361621826986D00D65E72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				674361631826986D00D65E72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		674361681826986D00D65E72 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				674361691826986D00D65E72 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6743616E1826986D00D65E72 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6743616F1826986D00D65E72 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		674361851826986D00D65E72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		674361861826986D00D65E72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		674361881826986D00D65E72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AntiClimaxText/AntiClimaxText-Prefix.pch";
+				INFOPLIST_FILE = "AntiClimaxText/AntiClimaxText-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		674361891826986D00D65E72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AntiClimaxText/AntiClimaxText-Prefix.pch";
+				INFOPLIST_FILE = "AntiClimaxText/AntiClimaxText-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6743618B1826986D00D65E72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AntiClimaxText.app/Contents/MacOS/AntiClimaxText";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AntiClimaxText/AntiClimaxText-Prefix.pch";
+				INFOPLIST_FILE = "AntiClimaxTextTests/AntiClimaxTextTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6743618C1826986D00D65E72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AntiClimaxText.app/Contents/MacOS/AntiClimaxText";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AntiClimaxText/AntiClimaxText-Prefix.pch";
+				INFOPLIST_FILE = "AntiClimaxTextTests/AntiClimaxTextTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		674361511826986D00D65E72 /* Build configuration list for PBXProject "AntiClimaxText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				674361851826986D00D65E72 /* Debug */,
+				674361861826986D00D65E72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		674361871826986D00D65E72 /* Build configuration list for PBXNativeTarget "AntiClimaxText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				674361881826986D00D65E72 /* Debug */,
+				674361891826986D00D65E72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6743618A1826986D00D65E72 /* Build configuration list for PBXNativeTarget "AntiClimaxTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6743618B1826986D00D65E72 /* Debug */,
+				6743618C1826986D00D65E72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6743614E1826986D00D65E72 /* Project object */;
+}
