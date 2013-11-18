@@ -249,6 +249,11 @@
 {
     if (commandSelector == @selector(deleteBackward:)){
         NSLog(@"Backspace!!");
+        NSString *string = [_sendTextField stringValue];
+        if ((int)string.length == 0) {
+            [self sendMessage:@"\t"];
+
+        }
     }else if(commandSelector == @selector(moveLeft:)){
         NSLog(@"Move Left!!");
     }else if(commandSelector == @selector(moveRight:)){
