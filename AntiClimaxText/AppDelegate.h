@@ -16,6 +16,7 @@
 //
     NSInputStream	*inputStream;
     NSOutputStream	*outputStream;
+    BOOL isClientStarted;
 
 }
 //@property (weak) NSTextField *_sendTextField;
@@ -24,6 +25,8 @@
 @property (weak) IBOutlet NSTextField *ipTextField;
 @property (assign) IBOutlet NSWindow *window;
 @property (weak) IBOutlet NSTextField *portTextField;
+@property (weak) IBOutlet NSTextField *userIDTextField;
+@property (weak) IBOutlet NSButton *startButton;
 
 // 이것의 목적은 무엇인가?
 //@property (nonatomic, retain) NSInputStream *inputStream;

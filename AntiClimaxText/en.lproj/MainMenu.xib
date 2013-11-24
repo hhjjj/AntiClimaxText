@@ -681,11 +681,11 @@
                         </textFieldCell>
                     </textField>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NBn-bS-X9R">
-                        <rect key="frame" x="205" y="263" width="70" height="32"/>
+                        <rect key="frame" x="358" y="262" width="63" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Start" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="S4g-oF-1VL">
+                        <buttonCell key="cell" type="push" title="시작" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="S4g-oF-1VL">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
+                            <font key="font" size="13" name="AppleSDGothicNeo-Regular"/>
                         </buttonCell>
                         <connections>
                             <action selector="startClient:" target="494" id="NNM-0E-sSe"/>
@@ -694,7 +694,7 @@
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WNi-6k-wj4">
                         <rect key="frame" x="319" y="318" width="96" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="8080" drawsBackground="YES" id="yRX-Uj-iK0">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="11999" drawsBackground="YES" id="yRX-Uj-iK0">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -718,6 +718,27 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cDC-vz-WCa">
+                        <rect key="frame" x="37" y="269" width="22" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="ID:" id="K3Q-Vl-e2D">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xjE-Mm-hwg">
+                        <rect key="frame" x="65" y="266" width="96" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="0Jj-MJ-dU2">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                        <connections>
+                            <action selector="userIDTextField:" target="494" id="TxB-Yz-gWO"/>
+                        </connections>
+                    </textField>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="541" secondAttribute="bottom" constant="20" symbolic="YES" id="543"/>
@@ -732,6 +753,8 @@
                 <outlet property="ipTextField" destination="550" id="556"/>
                 <outlet property="portTextField" destination="WNi-6k-wj4" id="BBD-zW-Aac"/>
                 <outlet property="sendTextField" destination="541" id="547"/>
+                <outlet property="startButton" destination="NBn-bS-X9R" id="tvP-cm-2e6"/>
+                <outlet property="userIDTextField" destination="xjE-Mm-hwg" id="uMA-xp-HrK"/>
                 <outlet property="window" destination="371" id="532"/>
             </connections>
         </customObject>

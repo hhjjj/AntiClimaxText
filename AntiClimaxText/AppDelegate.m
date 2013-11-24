@@ -16,9 +16,26 @@
 {
     // Insert code here to initialize your application
     oldLength = 0;
+    
+    NSString *ipAddress = [[NSUserDefaults standardUserDefaults] objectForKey:@"IP_ADDRESS"];
+    NSString *ipPort = [[NSUserDefaults standardUserDefaults] objectForKey:@"IP_PORT"];
+    NSString *userID = [[NSUserDefaults standardUserDefaults] objectForKey:@"USER_ID"];
+    if (ipAddress) self.ipTextField.stringValue = ipAddress;
+    if (ipPort) self.portTextField.stringValue = ipPort;
+    if (userID) self.userIDTextField.stringValue = userID;
+    
+//    NSLog(@"ip address: %@", ipAddress);
+    isClientStarted = NO;
+    [self.startButton setTitle:@"시작"];
+    
 }
 
-
+-(void)applicationWillTerminate:(NSNotification *)notification
+{
+    [[NSUserDefaults standardUserDefaults] setObject:self.ipTextField.stringValue forKey:@"IP_ADDRESS"];
+    [[NSUserDefaults standardUserDefaults] setObject:self.portTextField.stringValue forKey:@"IP_PORT"];
+    [[NSUserDefaults standardUserDefaults] setObject:self.userIDTextField.stringValue forKey:@"USER_ID"];
+}
 
 - (IBAction)textDidEnter:(id)sender {
 
@@ -92,8 +109,11 @@
     // send string accordinlgy
     //
     
-    NSString *string = [_sendTextField stringValue];
-    [self sendMessage:[NSString stringWithFormat:@"%@\t",string]];
+//    NSString *string = [_sendTextField stringValue];
+    NSString *userString = [self.userIDTextField.stringValue stringByAppendingString:self.sendTextField.stringValue];
+//    NSString *userString = [string stringByAppendingString:self.userIDTextField.stringValue];
+    [self sendMessage:[NSString stringWithFormat:@"%@\t",userString]];
+    NSLog(@"user string: %@",userString);
 }
 
 
@@ -121,7 +141,14 @@
 - (IBAction)startClient:(id)sender {
     
    
-    
+    if (isClientStarted == NO) {
+        [self.startButton setTitle:@"종료"];
+        isClientStarted = YES;
+    }
+    else{
+        [self.startButton setTitle:@"시작"];
+        isClientStarted = NO;
+    }
     
     
     [self initNetworkCommunication];
@@ -262,6 +289,7 @@
     
     return NO;
 }
+
 
 
 @end
