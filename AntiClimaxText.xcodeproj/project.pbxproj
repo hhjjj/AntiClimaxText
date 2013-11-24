@@ -15,6 +15,7 @@
 		674361701826986D00D65E72 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6743616E1826986D00D65E72 /* MainMenu.xib */; };
 		674361781826986D00D65E72 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674361771826986D00D65E72 /* SenTestingKit.framework */; };
 		674361791826986D00D65E72 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674361591826986D00D65E72 /* Cocoa.framework */; };
+		F1588C241842A53500078218 /* ACType.icns in Resources */ = {isa = PBXBuildFile; fileRef = F1588C231842A53500078218 /* ACType.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		6743616F1826986D00D65E72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		674361761826986D00D65E72 /* AntiClimaxTextTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntiClimaxTextTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		674361771826986D00D65E72 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F1588C231842A53500078218 /* ACType.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ACType.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		6743614D1826986D00D65E72 = {
 			isa = PBXGroup;
 			children = (
+				F1588C231842A53500078218 /* ACType.icns */,
 				6743615F1826986D00D65E72 /* AntiClimaxText */,
 				674361581826986D00D65E72 /* Frameworks */,
 				674361571826986D00D65E72 /* Products */,
@@ -198,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1588C241842A53500078218 /* ACType.icns in Resources */,
 				674361641826986D00D65E72 /* InfoPlist.strings in Resources */,
 				6743616A1826986D00D65E72 /* Credits.rtf in Resources */,
 				674361701826986D00D65E72 /* MainMenu.xib in Resources */,
